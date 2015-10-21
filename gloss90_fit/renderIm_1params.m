@@ -121,7 +121,7 @@ im2 = multispectralImage;
 
 % prepare a mask image for %40
 mask = zeros(1005,668);
-mask(375:585,256:444)=1;
+mask(375:585,256:450)=1;
 
 load('registered90.mat') % make this a variable
 photo = renderRegisteredAdjusted;
