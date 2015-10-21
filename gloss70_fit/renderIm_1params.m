@@ -70,7 +70,7 @@ parentSceneFile = 'test_sphere.dae';
 % WriteDefaultMappingsFile(parentSceneFile); % After this step you need to edit the mappings file
 
 conditionsFile = 'sphere_3params_Conditions.txt';
-mappingsFile = 'sphere_3params_DefaultMappings.txt';
+mappingsFile = '70gloss_DefaultMappings.txt';
 
 % Make sure all illuminants are added to the path. 
 addpath(genpath(pwd))
