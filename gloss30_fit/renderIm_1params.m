@@ -73,7 +73,6 @@ conditionsFile = 'sphere_3params_Conditions.txt';
 % mappingsFile = 'sphere_3params_DefaultMappings.txt';
 mappingsFile = '30gloss_DefaultMappings.txt';
 
-
 % Make sure all illuminants are added to the path. 
 addpath(genpath(pwd))
 
@@ -122,7 +121,7 @@ im2 = multispectralImage;
 
 % prepare a mask image for %40
 mask = zeros(1005,668);
-mask(382:574,256:444)=1;
+mask(382:574,256:450)=1;
 
 load('registered30.mat') % make this a variable
 photo = renderRegisteredAdjusted;
